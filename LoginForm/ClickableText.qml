@@ -15,12 +15,6 @@ Text {
         cursorShape: Qt.PointingHandCursor
         onClicked: {
             clickableText.clicked()
-            login.text = ""
-            password.text = ""
-            repeatPassword.text = ""
-            nickname.text = ""
-            passwordValue.visible = false
-            loadingIndicator.visible = false
         }
     }
 }
