@@ -28,7 +28,7 @@ Window {
         ClickableText {
             id: signInButton
             text: qsTr("Sign In")
-            font.underline: (status == 0) ? true : false
+            font.underline: status == 0
             onClicked:
             {
                 window.status = 0
@@ -45,7 +45,7 @@ Window {
         ClickableText {
             id: signUpButton
             text: qsTr("Sign Up")
-            font.underline: (status == 1) ? true : false
+            font.underline: status == 1
             onClicked:
             {
                 window.status = 1
