@@ -10,7 +10,6 @@ Text {
 
     MouseArea {
         id: mouseSignUp
-        enabled: !instance
         anchors.fill: parent
         cursorShape: Qt.PointingHandCursor
         onClicked: {
