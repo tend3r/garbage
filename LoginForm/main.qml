@@ -32,6 +32,12 @@ Window {
             onClicked:
             {
                 window.status = 0
+                login.text = ""
+                password.text = ""
+                repeatPassword.text = ""
+                nickname.text = ""
+                passwordValue.visible = false
+                loadingIndicator.visible = false
             }
         }
 
@@ -49,6 +55,12 @@ Window {
             onClicked:
             {
                 window.status = 1
+                login.text = ""
+                password.text = ""
+                repeatPassword.text = ""
+                nickname.text = ""
+                passwordValue.visible = false
+                loadingIndicator.visible = false
             }
         }
 
